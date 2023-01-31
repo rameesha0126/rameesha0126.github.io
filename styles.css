@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+}
+
+html {
+    font-size: 14px;
+}
+
+.background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.card-component {
+    max-width: 375px;
+    background-image: url(./images/bg-mobile.svg);
+    /*background-size: contain;
+    background-repeat: no-repeat;*/
+    background-color: var(--Violet);
+}
+
+.hero-items {
+    display: block;
+    width: 100%;
+    object-fit: contain;
+}
+
+#logo {
+    width: 30%;
+    margin: 2rem;
+}
+
+#mockups {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: hsl(0, 0%, 95%);
+}
+
+.description h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin: 1rem 3rem;
+}
+
+.description p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 0 4rem;
+}
+
+.description button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: var(--Violet);
+    margin: 2rem;
+    padding: 0.75rem 5rem;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
+}
+
+.description button:hover, .description button:active {
+    background-color: var(--Soft-Magenta);
+    color: hsl(0, 0%, 95%);
+}
+
+@media only screen and (min-width: 600px) {
+    .card-component {
+        max-width: 1440px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: row;
+        background-image: url(./images/bg-desktop.svg);
+        background-color: var(--Violet);
+        padding: 2rem 2rem 2rem 5rem;
+    }
+
+    .hero-items {
+        width: 100%;
+    }
+
+    #logo {
+        width: 20%;
+        margin: 1rem 0;
+    }
+
+    #mockups {
+        width: 90%;
+        margin: 3rem 0 2rem 0;
+    }
+
+    .description {
+        width: 40%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .description h1, .description button {
+        margin-left: 4rem;
+    }
+}
