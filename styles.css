@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap'); 
+@font-face {
+    font-family: "Figtree";
+    src: url("./assets/fonts/Figtree-Italic-VariableFont_wght.ttf");
+    font-style: normal;
+    font-weight: 500, 800;
+}
 
 * {
     margin: 0;
@@ -14,27 +19,27 @@
 }
 
 html {
-    font-family: 'Figtree', sans-serif;
     font-size: 16px;
 }
 
 body {
-    height: 100vh;
+    /* height: 100vh; */
     min-height: 100vh;
+    width: 100vw;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    font-family: 'Figtree', sans-serif;
     background-color: var(--Yellow);
 }
 
 .card-component {
     background-color: var(--White);
     border-radius: 20px;
-    width: 320px;
+    width: 375px;
     text-align: center;
     box-shadow: 10px 10px var(--Gray-950);
-    padding: 1rem 1rem 2rem 1rem;
+    padding: 1rem;
 }
 
 #illustration-article {
@@ -45,7 +50,6 @@ body {
 
 #text-section {
     text-align: left;
-    padding-top: 0.8rem;
 }
 
 p {
@@ -68,19 +72,19 @@ h1:hover {
     background-color: var(--Yellow);
     color: var(--Gray-950);
     display: inline-block;
-    padding: 0.3rem;
     border-radius: 5px;
+    padding: 0.25rem;
 }
 
 #description {
     color: var(--Gray-500);
 }
 
-footer {
+.avatar {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding-top: 1rem;
+    margin: 1rem 0;
 }
 
 #image-avatar {
@@ -90,7 +94,6 @@ footer {
 
 #avatar-name {
     font-weight: 800;
-    padding: 0 1rem;
 }
 
 .attribution {
