@@ -40,6 +40,7 @@ body {
     text-align: center;
     box-shadow: 10px 10px var(--Gray-950);
     padding: 1rem;
+    border: 1px solid var(--Gray-950);
 }
 
 #illustration-article {
