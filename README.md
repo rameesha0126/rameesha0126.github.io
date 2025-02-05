@@ -1,10 +1,10 @@
-# Frontend Mentor - Blog preview card solution
+# Frontend Mentor - Social links profile solution
 
-This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
-- [Frontend Mentor - Blog preview card solution](#frontend-mentor---blog-preview-card-solution)
+- [Frontend Mentor - Social links profile solution](#frontend-mentor---social-links-profile-solution)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop Design](./design/desktop-design.jpg)
+![Desktop Design](./design/destkop-design.jpg)
 ![Mobile Design](./design/mobile-design.jpg)
 ![Active States](./design/active-states.jpg)
 
@@ -44,7 +44,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [qr-code-component](https://github.com/rameesha0126/blog-preview-card-component)
+- Solution URL: [qr-code-component](https://github.com/rameesha0126/social-links-profile-main)
 - Live Site URL: [github.io](https://github.com/rameesha0126/rameesha0126.github.io/tree/master)
 
 ## My process
@@ -56,6 +56,9 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [Styled Components](https://styled-components.com/) - For styles
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
